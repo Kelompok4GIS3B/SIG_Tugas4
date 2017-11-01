@@ -1,5 +1,6 @@
+import folium
 map_1 = folium.Map(location=[-6.1765123,106.5799927], zoom_start=12,
-                   tiles='stamen ')
+                   tiles='Tangerang ')
 folium.Marker([-6.220371, 106.662390], popup='IKEA Alam Sutera').add_to(map_1)
 folium.Marker([-6.241532, 106.628401], popup='Summarecon Mal').add_to(map_1)
 folium.Marker([-6.127871, 106.652777], popup='Bandar Udara Internasional Soekarno-Hatta').add_to(map_1)
@@ -10,4 +11,14 @@ folium.Marker([-6.158891, 106.583855], popup='Global Mansion').add_to(map_1)
 folium.Marker([-6.169963, 106.595013], popup='SMA 15 Tangerang').add_to(map_1)
 folium.Marker([-6.187072, 106.603596], popup='Giant Ekstra Gatot Subroto').add_to(map_1)
 folium.Marker([-6.187072, 106.603596], popup='Taman Cibodas Raya').add_to(map_1)
+folium.Marker([-6.177019, 106.650449], popup='Warung Makan Mama Laras').add_to(map_1)
+folium.Marker([-6.177606, 106.646157], popup='Butik Pelangi').add_to(map_1)
+folium.Marker([-6.176699, 106.653163], popup='Masjid Jami Al-Hikmah Tangerang').add_to(map_1)
+folium.Marker([-6.175238, 106.646297], popup='Stasiun Tanah Tinggi').add_to(map_1)
+folium.Marker([-6.174875, 106.652831], popup='Pertamina Spbu 34-15129').add_to(map_1)
+folium.Marker([-6.185595, 106.643679], popup='Apotek Berkat').add_to(map_1)
+folium.Marker([-6.188422, 106.642231], popup='Rumah Makan Cak Mun').add_to(map_1)
+folium.Marker([-6.186651, 106.637757], popup='SMK Negeri 4 Tangerang').add_to(map_1)
+folium.Marker([-6.191152, 106.640289], popup='BRI Tbk.PT').add_to(map_1)
+folium.Marker([-6.194096, 106.641823], popup='Perumahan Cluster Pasadena').add_to(map_1)
 map_1

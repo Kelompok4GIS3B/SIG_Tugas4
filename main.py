@@ -49,5 +49,6 @@ folium.Marker([-6.170342, 106.647501], popup='<i>Lembaga Kebijakan Publik</i>').
 folium.Marker([-6.170987, 106.643269], popup='<i>Komplek Imigrasi Tangerang</i>').add_to(m)
 folium.Marker([-6.172689, 106.640130], popup='<i>Lapangan Sepak Bola Sukun</i>').add_to(m)
 folium.Marker([-6.172747, 106.640796], popup='<i>Lapangan Tembak PERBAKIN Tangerang</i>').add_to(m)
+folium.Marker([-6.171286, 106.640082], popup='<i>Dinas Pendidikan</i>').add_to(m)
 
 m

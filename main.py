@@ -50,5 +50,16 @@ folium.Marker([-6.170987, 106.643269], popup='<i>Komplek Imigrasi Tangerang</i>'
 folium.Marker([-6.172689, 106.640130], popup='<i>Lapangan Sepak Bola Sukun</i>').add_to(m)
 folium.Marker([-6.172747, 106.640796], popup='<i>Lapangan Tembak PERBAKIN Tangerang</i>').add_to(m)
 folium.Marker([-6.171286, 106.640082], popup='<i>Dinas Pendidikan</i>').add_to(m)
+folium.Marker([-6.171286, 106.640082], popup='<i>Dinas Pendidikan</i>').add_to(m)
+folium.Marker([-6.191157, 106.664858], popup='<i>Sekolah Menengah Atas Negeri 10 Tangerang</i>').add_to(m)
+folium.Marker([-6.188597, 106.666725], popup='<i>Margoland Cipondoh</i>').add_to(m)
+folium.Marker([-6.192309, 106.672497], popup='<i>Narita Hotel Tangerang</i>').add_to(m)
+folium.Marker([-6.194869, 106.674589], popup='<i>Jagarawa</i>').add_to(m)
+folium.Marker([-6.185685, 106.676606], popup='<i>Sipon Susu</i>').add_to(m)
+folium.Marker([-6.183147, 106.691208], popup='<i>Daarul Quran</i>').add_to(m)
+folium.Marker([-6.202922, 106.688569], popup='<i>GREEN VILLAGE</i>').add_to(m)
+folium.Marker([-6.206527, 106.687163], popup='<i>Dojo Cipondoh</i>').add_to(m)
+folium.Marker([-6.203828, 106.687904], popup='<i>Global Cell</i>').add_to(m)
+folium.Marker([-6.202527, 106.688333], popup='<i>Cipondoh Jaya Motor</i>').add_to(m)
 
 m

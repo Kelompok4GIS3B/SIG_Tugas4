@@ -71,5 +71,15 @@ folium.Marker([-6.204553, 106.641304], popup='Bakmi Ayam Ijo Mayapada').add_to(m
 folium.Marker([-6.177683, 106.625165], popup='RS Waras').add_to(m)
 folium.Marker([-6.179688, 106.621367], popup='Hotel Merdeka').add_to(m)
 folium.Marker([-6.185360, 106.620166], popup='Pakis Mas Resindence').add_to(m)
+folium.Marker([-6.196558, 106.654992], popup='Mie Ayam Win').add_to(m)
+folium.Marker([-6.196476, 106.654991], popup='Banjar Wijaya Tangerang').add_to(m)
+folium.Marker([-6.196275, 106.654995], popup='Es Kelapa Muda Mang Cecep').add_to(m)
+folium.Marker([-6.198192, 106.653570], popup='Bengkel Motor Bang Dede').add_to(m)
+folium.Marker([-6.195056, 106.653460], popup='Mie Ayam Jantan').add_to(m)
+folium.Marker([-6.195408, 106.653541], popup='Nirwana 1 Cluster Nirwana Modernland').add_to(m)
+folium.Marker([-6.195503, 106.653694], popup='Cluster Nirwana Kota Modern').add_to(m)
+folium.Marker([-6.200795, 106.655701], popup='Dufia isi Ulang').add_to(m)
+folium.Marker([-6.199384, 106.655056], popup='Water Park Taman Konblock').add_to(m)
+folium.Marker([-6.200544, 106.658478], popup='Kantor Kelurahan Cipete').add_to(m)
 
 m

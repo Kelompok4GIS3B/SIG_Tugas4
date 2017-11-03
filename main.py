@@ -140,6 +140,18 @@ folium.Marker([-6.196998, 106.665049], popup='Pandan Aquarium Toko').add_to(m)
 folium.Marker([-6.194565, 106.671339], popup='LPK HIKARI GAKKAI').add_to(m)
 folium.Marker([-6.200840, 106.650914], popup='SOYES HOME Soya Milk').add_to(m)
 folium.Marker([-6.192851, 106.662379], popup='Masjid Quba Taman Royal 2').add_to(m)
+
+folium.Marker([-6.179947, 106.708454], popup='<i>Green Lake City Ruko Food City</i>').add_to(m)
+folium.Marker([-6.187755, 106.599428], popup='<i>Apotek Taman Cibodas</i>').add_to(m)
+folium.Marker([-6.183168, 106.592626], popup='<i>RSIA Gebang Medika</i>').add_to(m)
+folium.Marker([-6.188576, 106.591156], popup='<i>Pasar Jatiuwung</i>').add_to(m)
+folium.Marker([-6.186715, 106.588838], popup='<i>Chizkek Lumer TANGERANG</i>').add_to(m)
+folium.Marker([-6.185131, 106.584515], popup='<i>Kroncong Residence</i>').add_to(m)
+folium.Marker([-6.181622, 106.586682], popup='<i>Sekolah Dasar Negeri Keroncong Mas Permai</i>').add_to(m)
+folium.Marker([-6.182256, 106.584595], popup='<i>Perumahan Taman Kota Permai 6</i>').add_to(m)
+folium.Marker([-6.132065, 106.643042], popup='<i>Posko Garuda City Center</i>').add_to(m)
+folium.Marker([-6.132907, 106.642490], popup='<i>PT. Garuda Indonesia</i>').add_to(m)
+
 folium.RegularPolygonMarker(
     [-6.191979, 106.591591],
     popup='RS Dinda',

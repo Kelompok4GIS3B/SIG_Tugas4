@@ -162,6 +162,17 @@ folium.Marker([-6.182256, 106.584595], popup='<i>Perumahan Taman Kota Permai 6</
 folium.Marker([-6.132065, 106.643042], popup='<i>Posko Garuda City Center</i>').add_to(m)
 folium.Marker([-6.132907, 106.642490], popup='<i>PT. Garuda Indonesia</i>').add_to(m)
 
+folium.Marker([-6.186165, 106.638218], popup='<i>Tugu Adipura</i>').add_to(m)
+folium.Marker([-6.186859, 106.640343], popup='<i>LAPAS KLAS 1 TANGERANG</i>').add_to(m)
+folium.Marker([-6.183883, 106.642445], popup='<i>Perusahaan Listrik Negara</i>').add_to(m)
+folium.Marker([-6.186645, 106.637703], popup='<i>Sekolah Kejuruan Negeri 4 Tangerang</i>').add_to(m)
+folium.Marker([-6.185059, 106.641595], popup='<i>Mang's Cafe and Lounge</i>').add_to(m)
+folium.Marker([-6.183129, 106.639451], popup='<i>Pendopo Pangayoman GrabBike</i>').add_to(m)
+folium.Marker([-6.183110, 106.639204], popup='<i>Bakmi Jawa Prambanan</i>').add_to(m)
+folium.Marker([-6.182950, 106.638641], popup='<i>Masjid Pangayoman</i>').add_to(m)
+folium.Marker([-6.186155, 106.637378], popup='<i>STM Pertanian Tangerang</i>').add_to(m)
+folium.Marker([-6.186929, 106.633770], popup='<i>Sekolah Menengah Pertama Negeri 17 Tangerang</i>').add_to(m)
+
 folium.RegularPolygonMarker(
     [-6.191979, 106.591591],
     popup='RS Dinda',

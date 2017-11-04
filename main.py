@@ -1,20 +1,20 @@
 ﻿import folium
 
-def Marker(long,lat):
+def marker(long,lat):
 	m = folium.Map(
     location=[long,lat],
     zoom_start=12,
     tiles='Stamen Terrain')
 	return m
 
-def RegularPolygon(long,lat):
+def regularPolygon(long,lat):
 	a = folium.Map(
     location=[long,lat],
     zoom_start=12,
     tiles='Stamen Toner')	
 	return a
 	
-def Circle(long,lat):
+def circle(long,lat):
 	n = folium.Map(
     location=[long,lat],
     zoom_start=12,
@@ -24,9 +24,9 @@ def Circle(long,lat):
 def disimpan(empat,lima):
 	empat.save(lima)
 	
-n = Circle(-6.202367, 106.655953)
-a = RegularPolygon(-6.202367, 106.655953)
-m = Marker(-6.202367, 106.655953)
+n = circle(-6.202367, 106.655953)
+a = regularPolygon(-6.202367, 106.655953)
+m = marker(-6.202367, 106.655953)
 tooltip = 'Click me!'
 
 folium.Marker([-6.200458, 106.660009], popup='<i>Ternak Lele Pak Napis</i>').add_to(m)
@@ -61,6 +61,16 @@ folium.Marker([-6.202922, 106.688569], popup='<i>GREEN VILLAGE</i>').add_to(m)
 folium.Marker([-6.206527, 106.687163], popup='<i>Dojo Cipondoh</i>').add_to(m)
 folium.Marker([-6.203828, 106.687904], popup='<i>Global Cell</i>').add_to(m)
 folium.Marker([-6.202527, 106.688333], popup='<i>Cipondoh Jaya Motor</i>').add_to(m)
+folium.Marker([-6.179947, 106.708454], popup='<i>Green Lake City Ruko Food City</i>').add_to(m)
+folium.Marker([-6.187755, 106.599428], popup='<i>Apotek Taman Cibodas</i>').add_to(m)
+folium.Marker([-6.183168, 106.592626], popup='<i>RSIA Gebang Medika</i>').add_to(m)
+folium.Marker([-6.188576, 106.591156], popup='<i>Pasar Jatiuwung</i>').add_to(m)
+folium.Marker([-6.186715, 106.588838], popup='<i>Chizkek Lumer TANGERANG</i>').add_to(m)
+folium.Marker([-6.185131, 106.584515], popup='<i>Kroncong Residence</i>').add_to(m)
+folium.Marker([-6.181622, 106.586682], popup='<i>Sekolah Dasar Negeri Keroncong Mas Permai</i>').add_to(m)
+folium.Marker([-6.182256, 106.584595], popup='<i>Perumahan Taman Kota Permai 6</i>').add_to(m)
+folium.Marker([-6.132065, 106.643042], popup='<i>Posko Garuda City Center</i>').add_to(m)
+folium.Marker([-6.132907, 106.642490], popup='<i>PT. Garuda Indonesia</i>').add_to(m)
 
 
 folium.Marker([-6.172928, 106.664536], popup='Poris Plawad').add_to(m)
@@ -69,7 +79,7 @@ folium.Marker([-6.163083, 106.671510], popup='Jl. Daan Mogot No.289').add_to(m)
 folium.Marker([-6.165089, 106.675592], popup='Jl. Daan Mogot').add_to(m)
 folium.Marker([-6.154171, 106.652809], popup='Warung Adelya Menjual Berbagai Macam').add_to(m)
 folium.Marker([-6.158405, 106.652627], popup='Pondok Bahar').add_to(m)
-folium.Marker([-6.157258, 106.652734], popup='Taman Pendidikan Al-Qur'an (TPA/TPQ)').add_to(m)
+folium.Marker([-6.157258, 106.652734], popup='Taman Pendidikan Al-Quran (TPA/TPQ)').add_to(m)
 folium.Marker([-6.156546, 106.655651], popup='Intan Pertiwi Industri').add_to(m)
 folium.Marker([-6.156470, 106.656636], popup='ATM Bank Tabungan Negara (Persero)').add_to(m)
 folium.Marker([-6.156690, 106.656489], popup='Harapan Motor Toko').add_to(m)
@@ -85,7 +95,6 @@ folium.Marker([-6.176524, 106.632683], popup='Cakwe Bantal isi').add_to(m)
 folium.Marker([-6.175927, 106.634372], popup='Masjid Taman Rempoa Indah').add_to(m)
 
 
-=======
 folium.Marker([-6.196558, 106.654992], popup='Mie Ayam Win').add_to(m)
 folium.Marker([-6.196476, 106.654991], popup='Banjar Wijaya Tangerang').add_to(m)
 folium.Marker([-6.196275, 106.654995], popup='Es Kelapa Muda Mang Cecep').add_to(m)
@@ -97,7 +106,16 @@ folium.Marker([-6.200795, 106.655701], popup='Dufia isi Ulang').add_to(m)
 folium.Marker([-6.199384, 106.655056], popup='Water Park Taman Konblock').add_to(m)
 folium.Marker([-6.200544, 106.658478], popup='Kantor Kelurahan Cipete').add_to(m)
 
-
+folium.Marker([-6.185508, 106.573089], popup='GS Battery PT').add_to(m)
+folium.Marker([-6.185447, 106.573553], popup='Putri Jambak').add_to(m)
+folium.Marker([-6.185866, 106.574241], popup='Merbabu').add_to(m)
+folium.Marker([-6.185870, 106.573128], popup='PT Woneel Midas Leathers').add_to(m)
+folium.Marker([-6.186685, 106.573781], popup='Pandu Farma').add_to(m)
+folium.Marker([-6.184019, 106.570726], popup='PT NUGEN BIOSCIENCE INDONESIA').add_to(m)
+folium.Marker([-6.183269, 106.570507], popup='TPU Gembor').add_to(m)
+folium.Marker([-6.182703, 106.571428], popup='PT Bioplast Unggul').add_to(m)
+folium.Marker([-6.181971, 106.570065], popup='Toko Ridho').add_to(m)
+folium.Marker([-6.182346, 106.569359], popup='Sandy Asih').add_to(m)
 %punya hanna
 
 folium.Marker([-6.220371, 106.662390], popup='IKEA Alam Sutera').add_to(m)
@@ -140,6 +158,40 @@ folium.Marker([-6.196998, 106.665049], popup='Pandan Aquarium Toko').add_to(m)
 folium.Marker([-6.194565, 106.671339], popup='LPK HIKARI GAKKAI').add_to(m)
 folium.Marker([-6.200840, 106.650914], popup='SOYES HOME Soya Milk').add_to(m)
 folium.Marker([-6.192851, 106.662379], popup='Masjid Quba Taman Royal 2').add_to(m)
+folium.Marker([-6.190248, 106.668580], popup='Recheese Fictory Cipondoh').add_to(m)
+folium.Marker([-6.176574, 106.657132], popup='Pondok Bakso Mas Boy').add_to(m)
+folium.Marker([-6.177449, 106.663108], popup='PDAM Tirta Benteng Cab Cipondoh').add_to(m)
+folium.Marker([-6.172641, 106.659702], popup='Warung Bang Mandit').add_to(m)
+folium.Marker([-6.173265, 106.661998], popup='Kantin TaVia & Catering TaVia').add_to(m)
+folium.Marker([-6.175414, 106.661655], popup='Ayam & Bebek Rempah Bu Sulis').add_to(m)
+folium.Marker([-6.179041, 106.659241], popup='SPBU Pertamin 31.151.03').add_to(m)
+folium.Marker([-6.182139, 106.658789], popup='Galeri Azalia (Muslim Shop)').add_to(m)
+folium.Marker([-6.182368, 106.660967], popup='Big Burger').add_to(m)
+folium.Marker([-6.182514, 106.655439], popup='futsal pandawa cipondoh').add_to(m)
+
+
+folium.Marker([-6.179947, 106.708454], popup='<i>Green Lake City Ruko Food City</i>').add_to(m)
+folium.Marker([-6.187755, 106.599428], popup='<i>Apotek Taman Cibodas</i>').add_to(m)
+folium.Marker([-6.183168, 106.592626], popup='<i>RSIA Gebang Medika</i>').add_to(m)
+folium.Marker([-6.188576, 106.591156], popup='<i>Pasar Jatiuwung</i>').add_to(m)
+folium.Marker([-6.186715, 106.588838], popup='<i>Chizkek Lumer TANGERANG</i>').add_to(m)
+folium.Marker([-6.185131, 106.584515], popup='<i>Kroncong Residence</i>').add_to(m)
+folium.Marker([-6.181622, 106.586682], popup='<i>Sekolah Dasar Negeri Keroncong Mas Permai</i>').add_to(m)
+folium.Marker([-6.182256, 106.584595], popup='<i>Perumahan Taman Kota Permai 6</i>').add_to(m)
+folium.Marker([-6.132065, 106.643042], popup='<i>Posko Garuda City Center</i>').add_to(m)
+folium.Marker([-6.132907, 106.642490], popup='<i>PT. Garuda Indonesia</i>').add_to(m)
+
+folium.Marker([-6.186165, 106.638218], popup='<i>Tugu Adipura</i>').add_to(m)
+folium.Marker([-6.186859, 106.640343], popup='<i>LAPAS KLAS 1 TANGERANG</i>').add_to(m)
+folium.Marker([-6.183883, 106.642445], popup='<i>Perusahaan Listrik Negara</i>').add_to(m)
+folium.Marker([-6.186645, 106.637703], popup='<i>Sekolah Kejuruan Negeri 4 Tangerang</i>').add_to(m)
+folium.Marker([-6.185059, 106.641595], popup='<i>Mang's Cafe and Lounge</i>').add_to(m)
+folium.Marker([-6.183129, 106.639451], popup='<i>Pendopo Pangayoman GrabBike</i>').add_to(m)
+folium.Marker([-6.183110, 106.639204], popup='<i>Bakmi Jawa Prambanan</i>').add_to(m)
+folium.Marker([-6.182950, 106.638641], popup='<i>Masjid Pangayoman</i>').add_to(m)
+folium.Marker([-6.186155, 106.637378], popup='<i>STM Pertanian Tangerang</i>').add_to(m)
+folium.Marker([-6.186929, 106.633770], popup='<i>Sekolah Menengah Pertama Negeri 17 Tangerang</i>').add_to(m)
+
 folium.RegularPolygonMarker(
     [-6.191979, 106.591591],
     popup='RS Dinda',
@@ -154,6 +206,13 @@ folium.RegularPolygonMarker(
     number_of_sides=3,
     radius=10
     ).add_to(a)	
+folium.RegularPolygonMarker(
+    [-6.181725, 106.655327],
+    popup='Nasi Uduk Mpo D2',
+    fill_color='#132b5e',
+    number_of_sides=3,
+    radius=10
+    ).add_to(a)	
 a
 
 folium.Circle(
@@ -163,12 +222,27 @@ folium.Circle(
     color='crimson',
     fill=False,
 ).add_to(n)
+folium.Circle(
+    radius=100,
+    location=[-6.179845, 106.652820],
+    popup='Saung Bang Patek',
+    color='crimson',
+    fill=False,
+).add_to(n)
+
 n
+
+
 
 
 folium.Marker(
     location=[-6.182490, 106.584710],
     popup='Distibutor NASA N-430321',
+    icon=folium.Icon(icon='cloud')
+).add_to(m)
+folium.Marker(
+    location=[-6.176466, 106.652937
+    popup='WARTEG PEKALONGAN "PAK AHMAD" 1',
     icon=folium.Icon(icon='cloud')
 ).add_to(m)
 m

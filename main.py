@@ -96,7 +96,16 @@ folium.Marker([-6.200795, 106.655701], popup='Dufia isi Ulang').add_to(m)
 folium.Marker([-6.199384, 106.655056], popup='Water Park Taman Konblock').add_to(m)
 folium.Marker([-6.200544, 106.658478], popup='Kantor Kelurahan Cipete').add_to(m)
 
-
+folium.Marker([-6.185508, 106.573089], popup='GS Battery PT').add_to(m)
+folium.Marker([-6.185447, 106.573553], popup='Putri Jambak').add_to(m)
+folium.Marker([-6.185866, 106.574241], popup='Merbabu').add_to(m)
+folium.Marker([-6.185870, 106.573128], popup='PT Woneel Midas Leathers').add_to(m)
+folium.Marker([-6.186685, 106.573781], popup='Pandu Farma').add_to(m)
+folium.Marker([-6.184019, 106.570726], popup='PT NUGEN BIOSCIENCE INDONESIA').add_to(m)
+folium.Marker([-6.183269, 106.570507], popup='TPU Gembor').add_to(m)
+folium.Marker([-6.182703, 106.571428], popup='PT Bioplast Unggul').add_to(m)
+folium.Marker([-6.181971, 106.570065], popup='Toko Ridho').add_to(m)
+folium.Marker([-6.182346, 106.569359], popup='Sandy Asih').add_to(m)
 %punya hanna
 
 folium.Marker([-6.220371, 106.662390], popup='IKEA Alam Sutera').add_to(m)

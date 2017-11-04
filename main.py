@@ -73,6 +73,16 @@ folium.Marker([-6.157258, 106.652734], popup='Taman Pendidikan Al-Qur'an (TPA/TP
 folium.Marker([-6.156546, 106.655651], popup='Intan Pertiwi Industri').add_to(m)
 folium.Marker([-6.156470, 106.656636], popup='ATM Bank Tabungan Negara (Persero)').add_to(m)
 folium.Marker([-6.156690, 106.656489], popup='Harapan Motor Toko').add_to(m)
+folium.Marker([-6.178699, 106.629732], popup='Museum Benteng Heritage').add_to(m)
+folium.Marker([-6.177430, 106.633466], popup='Gedung PGRI Tangerang').add_to(m)
+folium.Marker([-6.177755, 106.633214], popup='Mirella Salon & Spa').add_to(m)
+folium.Marker([-6.177696, 106.630885], popup='Pegadaian Tangerang').add_to(m)
+folium.Marker([-6.177270, 106.629641], popup='Pendopo Kabupaten Tangerang').add_to(m)
+folium.Marker([-6.175547, 106.631239], popup='Super Einstein College').add_to(m)
+folium.Marker([-6.175478, 106.631073], popup='SDN Tangerang 6').add_to(m)
+folium.Marker([-6.176193, 106.632935], popup='Toko Furniture Simpati').add_to(m)
+folium.Marker([-6.176524, 106.632683], popup='Cakwe Bantal isi').add_to(m)
+folium.Marker([-6.175927, 106.634372], popup='Masjid Taman Rempoa Indah').add_to(m)
 
 
 =======

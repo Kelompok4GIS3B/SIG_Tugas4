@@ -192,6 +192,17 @@ folium.Marker([-6.182950, 106.638641], popup='<i>Masjid Pangayoman</i>').add_to(
 folium.Marker([-6.186155, 106.637378], popup='<i>STM Pertanian Tangerang</i>').add_to(m)
 folium.Marker([-6.186929, 106.633770], popup='<i>Sekolah Menengah Pertama Negeri 17 Tangerang</i>').add_to(m)
 
+folium.Marker([-6.196746, 106.581345], popup='<i>Lotte Mart Wholesale</i>').add_to(m)
+folium.Marker([-6.195157, 106.585642], popup='<i>BPJS Kesehatan Liason Office Jatake</i>').add_to(m)
+folium.Marker([-6.194506, 106.584156], popup='<i>MTs Mathla'ul Anwar</i>').add_to(m)
+folium.Marker([-6.190725, 106.587219], popup='<i>PT Gudang Garam</i>').add_to(m)
+folium.Marker([-6.187957, 106.586521], popup='<i>PT. Mitsuba Indonesia</i>').add_to(m)
+folium.Marker([-6.185435, 106.583185], popup='<i>PT. Lloyd Pharma Indonesia</i>').add_to(m)
+folium.Marker([-6.182416, 106.581071], popup='<i>Lapangan Deskorda</i>').add_to(m)
+folium.Marker([-6.178928, 106.579113], popup='<i>Tahu Kupat Gunung Kidul</i>').add_to(m)
+folium.Marker([-6.226685, 106.717880], popup='<i>Mall Ciledug</i>').add_to(m)
+folium.Marker([-6.230461, 106.718320], popup='<i>Kolam Pemancingan Galapung Mina Puri</i>').add_to(m)
+
 folium.RegularPolygonMarker(
     [-6.191979, 106.591591],
     popup='RS Dinda',

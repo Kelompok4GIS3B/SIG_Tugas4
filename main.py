@@ -120,7 +120,7 @@ folium.Marker([-6.182346, 106.569359], popup='Sandy Asih').add_to(m)
 #punya hanna
 
 folium.Marker([-6.220371, 106.662390], popup='IKEA Alam Sutera').add_to(m)
-folium.Marker([-6.241532, 106.628401], popup='Summarecon Mal').add_to(m)
+folium.Marker([-6.211752, 106.567580], popup='Klinik Bersalin Palm Manis').add_to(m)
 folium.Marker([-6.127871, 106.652777], popup='Bandar Udara Internasional Soekarno-Hatta').add_to(m)
 folium.Marker([-6.193067, 106.680930], popup='Danau Cipondoh').add_to(m)
 folium.Marker([-6.158891, 106.583855], popup='Amsterdam Water Park').add_to(m)
@@ -153,7 +153,7 @@ folium.Marker([-6.214656, 106.676742], popup='Starbuck Rest AREA KM 14').add_to(
 folium.Marker([-6.213085, 106.679135], popup='Pecel Lele Depot Cantik Asih').add_to(m)
 folium.Marker([-6.221378, 106.679543], popup='Sekolah Dasar Islam Baiturrachman').add_to(m)
 folium.Marker([-6.220125, 106.677419], popup='My Shin Cafe').add_to(m)
-folium.Marker([-6.220125, 106.677419], popup='Kantor Kelurahan Cipete').add_to(m)
+folium.Marker([-6.210776, 106.565557], popup='Wisma Indopart').add_to(m)
 folium.Marker([-6.202619, 106.660007], popup='Gumay Foundation').add_to(m)
 folium.Marker([-6.196998, 106.665049], popup='Pandan Aquarium Toko').add_to(m)
 folium.Marker([-6.194565, 106.671339], popup='LPK HIKARI GAKKAI').add_to(m)

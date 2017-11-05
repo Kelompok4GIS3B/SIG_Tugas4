@@ -116,7 +116,8 @@ folium.Marker([-6.183269, 106.570507], popup='TPU Gembor').add_to(m)
 folium.Marker([-6.182703, 106.571428], popup='PT Bioplast Unggul').add_to(m)
 folium.Marker([-6.181971, 106.570065], popup='Toko Ridho').add_to(m)
 folium.Marker([-6.182346, 106.569359], popup='Sandy Asih').add_to(m)
-%punya hanna
+
+#punya hanna
 
 folium.Marker([-6.220371, 106.662390], popup='IKEA Alam Sutera').add_to(m)
 folium.Marker([-6.241532, 106.628401], popup='Summarecon Mal').add_to(m)
@@ -168,6 +169,17 @@ folium.Marker([-6.179041, 106.659241], popup='SPBU Pertamin 31.151.03').add_to(m
 folium.Marker([-6.182139, 106.658789], popup='Galeri Azalia (Muslim Shop)').add_to(m)
 folium.Marker([-6.182368, 106.660967], popup='Big Burger').add_to(m)
 folium.Marker([-6.182514, 106.655439], popup='futsal pandawa cipondoh').add_to(m)
+folium.Marker([-6.189133, 106.578901], popup='Pondok Pasantren Al Kamil').add_to(m)
+folium.Marker([-6.188285, 106.581229], popup='PT. Eagle Indo Pharma').add_to(m)
+folium.Marker([-6.191656, 106.578880], popup='PT. Mastercorrindo').add_to(m)
+folium.Marker([-6.194125, 106.578445], popup='Warung Sheleve Lamongan').add_to(m)
+folium.Marker([-6.196253, 106.580752], popup='Rumah Makna Sikumbang').add_to(m)
+folium.Marker([-6.196877, 106.583542], popup='SPBU Pertamina 15-124').add_to(m)
+folium.Marker([-6.196525, 106.586320], popup='GOR Jatiuwung').add_to(m)
+folium.Marker([-6.198285, 106.581122], popup='Koperasi Yonif Arya Kemuning').add_to(m)
+folium.Marker([-6.201592, 106.579105], popup='YPI Al-Maghfiroh').add_to(m)
+folium.Marker([-6.202935, 106.578006], popup='Chalista SteaM').add_to(m)
+
 
 
 folium.Marker([-6.179947, 106.708454], popup='<i>Green Lake City Ruko Food City</i>').add_to(m)
@@ -213,14 +225,21 @@ folium.RegularPolygonMarker(
 folium.RegularPolygonMarker(
     [-6.195179, 106.585679],
     popup='BPJS Liasion Office Jatake',
-    fill_color='#132b5e',
-    number_of_sides=3,
+    fill_color='#45647d',
+    number_of_sides=4,
     radius=10
     ).add_to(a)	
 folium.RegularPolygonMarker(
     [-6.181725, 106.655327],
     popup='Nasi Uduk Mpo D2',
-    fill_color='#132b5e',
+    fill_color='#769d96',
+    number_of_sides=6,
+    radius=10
+    ).add_to(a)	
+folium.RegularPolygonMarker(
+    [-6.202306, 106.573312],
+    popup='Masjid Jami Nurul Yaqin',
+    fill_color='#769d96',
     number_of_sides=3,
     radius=10
     ).add_to(a)	
@@ -240,7 +259,13 @@ folium.Circle(
     color='crimson',
     fill=False,
 ).add_to(n)
-
+folium.Circle(
+    radius=100,
+    location=[-6.205175, 106.568403],
+    popup='Yayasan Dana Pensiunan Konperensi Waligereja Indonesia',
+    color='crimson',
+    fill=False,
+).add_to(n)
 n
 
 
@@ -252,8 +277,13 @@ folium.Marker(
     icon=folium.Icon(icon='cloud')
 ).add_to(m)
 folium.Marker(
-    location=[-6.176466, 106.652937
+    location=[-6.176466, 106.652937]
     popup='WARTEG PEKALONGAN "PAK AHMAD" 1',
+    icon=folium.Icon(icon='cloud')
+).add_to(m)
+folium.Marker(
+    location=[-6.208105, 106.567795]
+    popup='Mie Ayam Pak Kribo',
     icon=folium.Icon(icon='cloud')
 ).add_to(m)
 m

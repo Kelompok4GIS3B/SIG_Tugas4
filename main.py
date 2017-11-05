@@ -94,7 +94,6 @@ folium.Marker([-6.176193, 106.632935], popup='Toko Furniture Simpati').add_to(m)
 folium.Marker([-6.176524, 106.632683], popup='Cakwe Bantal isi').add_to(m)
 folium.Marker([-6.175927, 106.634372], popup='Masjid Taman Rempoa Indah').add_to(m)
 
-
 folium.Marker([-6.196558, 106.654992], popup='Mie Ayam Win').add_to(m)
 folium.Marker([-6.196476, 106.654991], popup='Banjar Wijaya Tangerang').add_to(m)
 folium.Marker([-6.196275, 106.654995], popup='Es Kelapa Muda Mang Cecep').add_to(m)
@@ -105,6 +104,20 @@ folium.Marker([-6.195503, 106.653694], popup='Cluster Nirwana Kota Modern').add_
 folium.Marker([-6.200795, 106.655701], popup='Dufia isi Ulang').add_to(m)
 folium.Marker([-6.199384, 106.655056], popup='Water Park Taman Konblock').add_to(m)
 folium.Marker([-6.200544, 106.658478], popup='Kantor Kelurahan Cipete').add_to(m)
+
+folium.Marker([-6.169292, 106.671120], popup='PT. Golden Prima Sejahtera').add_to(m)
+folium.Marker([-6.170577, 106.673867], popup='Pabrik Kacamata').add_to(m)
+folium.Marker([-6.170726, 106.671565], popup='HENNA, BANANA NUGGET').add_to(m)
+folium.Marker([-6.171345, 106.673593], popup='Pangkalan Es Tebu Murni').add_to(m)
+folium.Marker([-6.171630, 106.671933], popup='Es Dawet Hitam cleo').add_to(m)
+folium.Marker([-6.172517, 106.667328], popup='Sekolah Menengah Kejuruan Otomotif Waskita').add_to(m)
+folium.Marker([-6.172482, 106.666561], popup='Steam Motor Pratama').add_to(m)
+folium.Marker([-6.172586, 106.666472], popup='Toko Permata Wangi').add_to(m)
+folium.Marker([-6.172605, 106.665971], popup='Alfamart Panglima Polim').add_to(m)
+folium.Marker([-6.172925, 106.666483], popup='Toko Plastik Dan Bahan Kue LIORA').add_to(m)
+
+
+
 
 folium.Marker([-6.185508, 106.573089], popup='GS Battery PT').add_to(m)
 folium.Marker([-6.185447, 106.573553], popup='Putri Jambak').add_to(m)
